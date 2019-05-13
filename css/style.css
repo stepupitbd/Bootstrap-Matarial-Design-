@@ -1,0 +1,334 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("img/img-nav.png");
+
+    height: 600px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+/* text on navbar-img */
+.h2-nav {
+    position: absolute;
+    font-size: 40px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-img-hr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #36b9eb;
+}
+
+.nav-img-p {
+    position: absolute;
+    font-size: 20px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ser-h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ser-hr {
+    border: 1px solid #36b9eb;
+}
+
+.ser-h4 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.ser-icon {
+    font-size: 60px;
+    color: #dddddd;
+}
+
+.otr-h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*
+@media only screen and (max-width: 600px) {
+    .otr-h2, .ort-p, .ort-div-btn{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+  .otr-h2, .ort-p, .ort-div-btn{
+        text-align: center;
+    }
+}
+*/
+
+@media only screen and (min-width: 768px) {
+    .otr-ml {
+        margin-left: 130px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .otr-ml {
+        margin-left: 130px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .otr-ml {
+        margin-left: 200px !important;
+    }
+}
+
+.otr-h5 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.ort-btn {
+    color: black;
+    font-weight: 500;
+    background-color: white;
+    text-transform: uppercase;
+    border: 1px solid #36b9eb;
+}
+
+.ort-btn:hover {
+    background-color: #36b9eb;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .otr-img {
+        display: none !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ab-more {
+    height: 178px;
+    width: 190px;
+    border-radius: 50%;
+    border: 5px solid #f1f1f1;
+    background-color: #35c2f8;
+}
+
+.ab-more:hover {
+    cursor: pointer;
+    background-color: #fff;
+    border: 5px solid #35c2f8;
+}
+
+.ab-more-t {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.ab-more:hover .ab-more-t {
+    color: #35c2f8;
+}
+
+.team-h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.team-h5 {
+    font-weight: bold;
+}
+
+.team-font {
+    color: white;
+    border-radius: 50px;
+    height: 33px;
+    width: 33px;
+    background-color: black;
+}
+
+.team-font:hover{
+    background-color: #36b9eb;
+}
+
+
+.cont {
+    position: relative;
+}
+
+.image-i {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle-i {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cont:hover .image-i {
+    opacity: 0.3;
+}
+
+.cont:hover .middle-i {
+    opacity: 1;
+}
+
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+/*----------------*/
+
+.foot-h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fr-bor {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.send-btn {
+    color: white;
+    font-weight: 500;
+    background-color: #36b9eb;
+    text-transform: uppercase;
+}
+
+.send-btn:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid #36b9eb;
+}
+
+/*
+.foot-hr {
+    border: 1px solid #4d4c4c;
+}*/
+
+@media only screen and (max-width: 548px) {
+    .nav-img-hr {
+        top: 55%;
+    }
+
+    .nav-img-p {
+        top: 68%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .nav-img-hr {
+        top: 58%;
+    }
+
+    .nav-img-p {
+        top: 73%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .res-sm-div {
+        text-align: center;
+    }
+}
+
+.t-m-b{
+    margin-bottom: 5rem !important;
+}
+
+.f-it{
+    color: white;
+}
+
+.f-it:hover{
+    color: #36b9eb;
+}
+
+/* ************************* */
+@media only screen and (max-width: 992px) {
+    .div-hide {
+        display: none
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .ab-text-r {
+        text-align: right;
+    }
+
+    .ab-text-l {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .ab-text-r {
+        text-align: center;
+    }
+
+    .ab-text-l {
+        text-align: center;
+    }
+}
+
+.ab-h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ab-h5 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 992px) {
+    .div-show {
+        display: none;
+    }
+}
